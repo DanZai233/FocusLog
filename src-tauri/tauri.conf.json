@@ -20,10 +20,21 @@
       "icons/icon.ico"
     ],
     "macOS": {
-      "minimumSystemVersion": "10.13"
+      "minimumSystemVersion": "10.13",
+      "entitlements": null,
+      "exceptionDomain": "",
+      "frameworks": [],
+      "providerShortName": null,
+      "signingIdentity": null
+    },
+    "windows": {
+      "certificateThumbprint": null,
+      "digestAlgorithm": "sha256",
+      "timestampUrl": ""
     },
     "shortDescription": "A minimal daily focus & todo tracker",
-    "copyright": "© 2026 DD-HAHA. All rights reserved."
+    "copyright": "© 2026 DD-HAHA. All rights reserved.",
+    "longDescription": "FocusLog - A minimal daily focus & todo tracker with WebDAV backup, theme switching, and multi-language support."
   },
   "app": {
     "withGlobalTauri": false,
